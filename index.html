@@ -1,36 +1,296 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Estética Bella Vita</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8c8dc;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #6b124d;
+    }
+    nav {
+      background-color: #ffebf0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #6b124d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .procedimentos ul {
+      list-style: none;
+      padding: 0;
+    }
+    .procedimentos li {
+      background: #ffeef5;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-left: 5px solid #d36b9d;
+    }
+    footer {
+      background-color: #f8c8dc;
+      text-align: center;
+      padding: 15px;
+      color: #6b124d;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="flor.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="sol.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagem3.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+
+  <header>
+    <h1>Clínica Estética Bella Vita</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#procedimentos">Procedimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre a Clínica</h2>
+    <p>
+      A Clínica Estética Bella Vita oferece tratamentos modernos com profissionais qualificados
+      para cuidar da sua beleza e bem-estar. Nossa missão é proporcionar autoestima, saúde e satisfação aos nossos clientes.
+    </p>
+  </section>
+
+  <section id="procedimentos" class="procedimentos">
+    <h2>Procedimentos</h2>
+    <ul>
+      <li><strong>Limpeza de Pele Profunda:</strong> Remove impurezas e controla oleosidade.</li>
+      <li><strong>Peeling Químico:</strong> Renova a pele e suaviza manchas e marcas.</li>
+      <li><strong>Microagulhamento:</strong> Estimula colágeno e melhora a textura da pele.</li>
+      <li><strong>Massagem Modeladora:</strong> Auxilia na redução de medidas e celulite.</li>
+      <li><strong>Depilação a Laser:</strong> Remoção definitiva dos pelos com segurança.</li>
+      <li><strong>Botox e Preenchimento:</strong> Redução de rugas e marcas de expressão.</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📞 Telefone: (11) 99999-9999</p>
+    <p>📧 E-mail: contato@bellavita.com.br</p>
+    <p>📍 Endereço: Rua das Rosas, 123 – Centro, São Paulo - SP</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Clínica Estética Bella Vita. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Limpeza de Pele Profunda - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Limpeza de Pele Profunda</h1>
+</header>
+
+<main>
+  <p>A <strong>limpeza de pele profunda</strong> remove cravos, impurezas e células mortas. Ideal para peles oleosas ou acneicas.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Desobstrução dos poros</li>
+    <li>Melhora da textura da pele</li>
+    <li>Controle da oleosidade</li>
+  </ul>
+  <img src="imag/ZndC5yHrswpLqk3bHmy9hRdFQ0Mlo1.jpg">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Peeling Químico - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Peeling Químico</h1>
+</header>
+
+<main>
+  <p>O <strong>peeling químico</strong> promove a renovação celular com aplicação de ácidos, melhorando manchas, acne e linhas finas.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Uniformiza o tom da pele</li>
+    <li>Reduz cicatrizes e manchas</li>
+    <li>Estimula colágeno</li>
+  </ul>
+  <img src="imag/peeling_quimico-2.jpg">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Microagulhamento - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Microagulhamento</h1>
+</header>
+
+<main>
+  <p>O <strong>microagulhamento</strong> utiliza pequenas agulhas para estimular a produção de colágeno, tratando marcas e poros dilatados.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Redução de cicatrizes de acne</li>
+    <li>Melhora da firmeza da pele</li>
+    <li>Minimização de linhas finas</li>
+  </ul>
+  <img src="imag/shutterstock_229927825.jpg">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Massagem Modeladora - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Massagem Modeladora</h1>
+</header>
+
+<main>
+  <p>A <strong>massagem modeladora</strong> atua com manobras vigorosas para melhorar a circulação e reduzir medidas.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Redução da celulite</li>
+    <li>Melhora do contorno corporal</li>
+    <li>Estimula o metabolismo</li>
+  </ul>
+  <img src="imag/74104569-1712.webp">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Depilação a Laser - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Depilação a Laser</h1>
+</header>
+
+<main>
+  <p>A <strong>depilação a laser</strong> elimina os pelos de forma permanente, proporcionando mais conforto e praticidade.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Remoção definitiva dos pelos</li>
+    <li>Pele lisa por mais tempo</li>
+    <li>Evita foliculite</li>
+  </ul>
+  <img src="imag/Depilacao.png">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Botox e Preenchimento - Bella Vita</title>
+  <style>
+    body { font-family: Arial; background: #fffafc; margin: 0; }
+    header, footer { background: #f8c8dc; text-align: center; padding: 20px; color: #6b124d; }
+    main { padding: 30px; }
+    a { color: #6b124d; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Botox e Preenchimento</h1>
+</header>
+
+<main>
+  <p>Com o <strong>Botox e preenchimento facial</strong>, é possível suavizar rugas e recuperar o volume facial com naturalidade.</p>
+  <h3>Benefícios:</h3>
+  <ul>
+    <li>Redução de linhas de expressão</li>
+    <li>Melhora da harmonia facial</li>
+    <li>Resultados imediatos e seguros</li>
+  </ul>
+  <img src="imag/20210114_6000b3b8a40e4.jpg">
+  <p><a href="index.html">← Voltar para a página inicial</a></p>
+</main>
+
+<footer>
+  &copy; 2025 Clínica Estética Bella Vita
+</footer>
+
 </body>
 </html>
